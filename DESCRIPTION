@@ -1,0 +1,44 @@
+Package: dsFredaGUI
+Title: dsFredaGUI
+Version: 0.4.00
+Authors@R: 
+    person("Bastian", "Reiter", , "b.reiter@med.uni-frankfurt.de", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-1088-0502"))
+Description: DataSHIELD-compliant version of the R package FredaGUI: R Shiny apps as graphical user interface for FREDA - a tool for Federated Refinement and Exploration of Real-World Data
+URL: https://github.com/BastianReiter/dsFredaGUI
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports:
+    assertthat,
+    callr,
+    DataEditR,
+    dplyr,
+    dsCCPhosClient,
+    dsFredaClient,
+    DSI,
+    DT,
+    gt (>= 0.10.1),
+    httpuv,
+    magrittr,
+    pingr,
+    plotly,
+    purrr,
+    reactable,
+    reactablefmtr,
+    shiny,
+    shiny.router,
+    shiny.semantic (>= 0.5.0),
+    shinyjs,
+    stringr,
+    sysfonts,
+    tidyr,
+    waiter (>= 0.2.5)
+Depends:
+    R (>= 2.10)
+LazyData: true
+Remotes: 
+    github::BastianReiter/dsCCPhosClient,
+    github::BastianReiter/dsFredaClient,
+    github::kcuilla/reactablefmtr
+Config/roxygen2/version: 8.1.0
